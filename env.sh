@@ -3,7 +3,7 @@
 
 export COBRA_HOME="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
-export CUDA_PATH="/usr/local/cuda"
+export CUDA_PATH="/usr/local/cuda-12.2"
 
 function fail {
   echo "[FAIL] error: $1"
